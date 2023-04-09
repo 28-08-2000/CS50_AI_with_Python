@@ -1,0 +1,14 @@
+1. to install additional dependencies/packages
+
+    inside tensorflow enviroment
+    cd /d D:\MARS Program Files\miniconda\pkgs 
+    install your packages inside this folder for this specific virtual enviroment
+    using pip install nltk, markovify 
+    check packages by pip list 
+
+2. to upgarde pip or mostly install
+
+    download get-pip.py file (placed inside mars program files or download)  
+    change directory to miniconda/pkgs
+    run python get-pip.py
+    

@@ -1,0 +1,26 @@
+1.downloads tensorflow.yml from github jeff heaton
+2. download miniconda from website and install it inside the mars files python 3.7 64 bit
+   inside mars/miniconda
+3. conda install jupyter
+                yes
+                done 
+4. conda env create -v -f tensorflow.yml inside downloads(.yml file is present) 
+                           all packages will be  downloaded 
+5. conda activate tensorflow   --->change the enviroment  (create virtual env inside conda directory)
+6. check by python 
+            import tensorflow as tf 
+            print(tf.__version__)
+            2.00
+            exit()
+7. connect kernet with jupyter
+                      python -m impykernel install --user --name tensorflow --display-name "Python 3.7 (tensorflow)"
+8. jupyter notebook   -->inside tensorflow enviroment
+9. make new .ipny file inide notebook -->opened in internet explorer by default
+10. now run your programs 
+11. to install additional dependencies/packages 
+    run cmd as admin
+    inside tensorflow enviroment
+    cd D:\MARS Program Files\miniconda\pkgs 
+    install your packages inside this folder for this specific virtual enviroment
+    like pygame using pip3 install pygame , or opencv python
+    check packages by pip list 
