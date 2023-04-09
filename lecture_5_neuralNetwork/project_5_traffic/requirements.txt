@@ -1,0 +1,3 @@
+opencv-python   # i installed it inside the tensorflow venv
+scikit-learn
+tensorflow

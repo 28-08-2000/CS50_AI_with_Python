@@ -1,0 +1,9 @@
+pillow
+//to intall the pillow module 
+pip install pillow
+//to upgrade the pillow module
+python -m pip install --upgrade pip
+//run program with input txt file
+python maze.py maze1.txt
+//open the program generated image
+maze.png

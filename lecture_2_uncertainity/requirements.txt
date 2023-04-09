@@ -1,0 +1,3 @@
+this programs require pomegranate module 
+this module requires the cpp build tools and some additional tools which is of 4 GB size 
+ so use the google colab 
